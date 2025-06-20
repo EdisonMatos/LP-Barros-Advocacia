@@ -55,12 +55,12 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Barros Advocacia",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "lucasesrom@barrosadvocacia.com.br", // Email desejado pelo cliente
   domain: "barrosadvocacia.com.br", // Sem "www"
   phone: {
     ddd: "11",
     firstPart: "2037", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2448", // Apenas os 4 últimos números
+    secondPart: "1448", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
