@@ -16,7 +16,7 @@ import BlogPosts from "../components/sections/BlogPosts";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "default";
+  const colorMode = "light";
 
   return (
     <>
@@ -43,6 +43,7 @@ export default function Index() {
       <AboutInstagram
         colorMode={colorMode}
         facebook={true}
+        instagram={true}
         socialPrint={false}
       />
       <Cta colorMode={colorMode} />
@@ -57,7 +58,8 @@ export default function Index() {
         phoneTerciario={false}
         expedientesecond={false}
         facebook={true}
-        emailSecundario={true}
+        instagram={true}
+        emailSecundario={false}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
