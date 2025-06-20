@@ -60,7 +60,7 @@ export const infos = {
   phone: {
     ddd: "11",
     firstPart: "2037", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2448", // Apenas os 4 últimos números
+    secondPart: "1448", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
